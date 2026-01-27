@@ -14,6 +14,7 @@ import {
 import Image from "next/image";
 import React from "react";
 import { usePathname } from "next/navigation";
+import { menuItems } from "@/lib/data";
 
 export const Logo = () => {
   return (
@@ -32,12 +33,6 @@ export default function Header() {
 
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
-  const menuItems = [
-    { label: "Accueil", href: "/" },
-    { label: "Coaching", href: "/coaching" },
-    { label: "Témoignages", href: "/testimonials" },
-  ];
-
   return (
     <Navbar
       shouldHideOnScroll
@@ -46,7 +41,9 @@ export default function Header() {
       isBlurred={!isHome}
       className={`font-medium w-full z-50 ${
         isHome
-          ? "bg-transparent absolute top-0 left-0"
+          ? isMenuOpen
+            ? "bg-white dark:bg-black absolute top-0 left-0"
+            : "bg-transparent absolute top-0 left-0"
           : "bg-white dark:bg-black sticky top-0"
       }`}
     >
@@ -89,6 +86,7 @@ export default function Header() {
             color="primary"
             href="https://forms.gle/gVNSToD87qrQ41wr6"
             className="text-lg"
+            target="_blank"
           >
             Nous contacter
           </Button>
