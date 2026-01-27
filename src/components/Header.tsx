@@ -66,7 +66,7 @@ export default function Header() {
                 href={item.href}
                 className={`text-xl ${
                   isActive
-                    ? "primary"
+                    ? "primary font-normal"
                     : isHome
                       ? "text-white"
                       : "text-foreground"
