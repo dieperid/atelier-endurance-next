@@ -10,8 +10,11 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Atelier Endurance website",
+  title: "Atelier de l'Endurance",
   description: "Website of the Atelier Endurance project",
+  icons: {
+    icon: "/assets/img/logo_trans.png",
+  },
 };
 
 export default function RootLayout({
