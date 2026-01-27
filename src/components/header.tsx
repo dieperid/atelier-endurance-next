@@ -54,12 +54,12 @@ export default function Header() {
           </Link>
         </NavbarItem>
         <NavbarItem isActive>
-          <Link aria-current="page" href="#">
+          <Link aria-current="page" href="#" className="text-lg">
             Coaching
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="#" className="text-lg">
             Témoignages
           </Link>
         </NavbarItem>
@@ -71,7 +71,7 @@ export default function Header() {
             color="primary"
             href="https://forms.gle/gVNSToD87qrQ41wr6"
             variant="flat"
-            className="text-base"
+            className="text-lg"
           >
             Nous contacter
           </Button>
