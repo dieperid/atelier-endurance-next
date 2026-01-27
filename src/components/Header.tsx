@@ -64,7 +64,7 @@ export default function Header() {
             <NavbarItem key={item.href} isActive={isActive}>
               <Link
                 href={item.href}
-                className={`text-xl ${
+                className={`text-xl hover:underline ${
                   isActive
                     ? "primary font-normal"
                     : isHome
