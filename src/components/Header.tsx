@@ -13,6 +13,7 @@ import {
 } from "@heroui/react";
 import Image from "next/image";
 import React from "react";
+import { usePathname } from "next/navigation";
 
 export const Logo = () => {
   return (
@@ -26,16 +27,28 @@ export const Logo = () => {
 };
 
 export default function Header() {
+  const pathname = usePathname();
+  const isHome = pathname === "/";
+
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
-  const menuItems = ["Accueil", "Coaching", "Témoignages"];
+  const menuItems = [
+    { label: "Accueil", href: "/" },
+    { label: "Coaching", href: "/coaching" },
+    { label: "Témoignages", href: "/testimonials" },
+  ];
 
   return (
     <Navbar
       shouldHideOnScroll
       onMenuOpenChange={setIsMenuOpen}
-      height={"5rem"}
-      className="font-medium"
+      height={"6rem"}
+      isBlurred={!isHome}
+      className={`font-medium w-full z-50 ${
+        isHome
+          ? "bg-transparent absolute top-0 left-0"
+          : "bg-white dark:bg-black sticky top-0"
+      }`}
     >
       <NavbarContent>
         <NavbarMenuToggle
@@ -48,29 +61,33 @@ export default function Header() {
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
-        <NavbarItem>
-          <Link color="foreground" href="#" className="text-lg">
-            Accueil
-          </Link>
-        </NavbarItem>
-        <NavbarItem isActive>
-          <Link aria-current="page" href="#" className="text-lg">
-            Coaching
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link color="foreground" href="#" className="text-lg">
-            Témoignages
-          </Link>
-        </NavbarItem>
+        {menuItems.map((item) => {
+          const isActive = pathname === item.href;
+          return (
+            <NavbarItem key={item.href} isActive={isActive}>
+              <Link
+                href={item.href}
+                className={`text-xl ${
+                  isActive
+                    ? "primary"
+                    : isHome
+                      ? "text-white"
+                      : "text-foreground"
+                }`}
+              >
+                {item.label}
+              </Link>
+            </NavbarItem>
+          );
+        })}
       </NavbarContent>
+
       <NavbarContent justify="end">
         <NavbarItem>
           <Button
             as={Link}
             color="primary"
             href="https://forms.gle/gVNSToD87qrQ41wr6"
-            variant="flat"
             className="text-lg"
           >
             Nous contacter
@@ -89,10 +106,10 @@ export default function Header() {
                     ? "danger"
                     : "foreground"
               }
-              href="#"
+              href={item.href}
               size="lg"
             >
-              {item}
+              {item.label}
             </Link>
           </NavbarMenuItem>
         ))}
