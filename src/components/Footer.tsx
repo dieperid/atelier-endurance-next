@@ -36,10 +36,10 @@ export default function Footer() {
             </nav>
           </div>
 
-          <div className="h-px w-full bg-linear-to-r from-transparent via-slate-300 to-transparent" />
+          <div className="h-px w-full bg-linear-to-r from-transparent via-slate-300 to-transparent mt-4 sm:mt-0" />
 
           <div className="mt-6 flex flex-col items-center gap-4 sm:flex-row sm:justify-between">
-            <p className="text-sm text-slate-500">
+            <p className="text-sm text-slate-500 text-center sm:text-left">
               © 2025 Atelier de l&apos;Endurance. Tous droits réservés.
             </p>
             <div className="flex items-center gap-4">
