@@ -57,7 +57,7 @@ export default function TestimonialsCarousel() {
 
   return (
     <section className="relative overflow-hidden pt-16 pb-6">
-      <div className="pointer-events-none absolute inset-0 bg-linear-to-b from-gray-300 via-gray-200 to-gray-200" />
+      <div className="pointer-events-none absolute inset-0 bg-linear-to-b from-gray-200 via-gray-100 to-gray-100" />
       <div className="pointer-events-none absolute left-0 top-0 w-full text-white">
         <svg
           viewBox="0 0 1440 90"
