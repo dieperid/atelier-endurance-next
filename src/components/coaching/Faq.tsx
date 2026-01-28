@@ -13,9 +13,9 @@ export default function FAQ() {
 
   return (
     <section>
-      <h2 className="text-4xl font-bold text-slate-900 mb-4">FAQ</h2>
+      <h2 className="text-4xl font-bold mb-4">FAQ</h2>
 
-      <Accordion variant="splitted" className="px-0 space-y-3">
+      <Accordion variant="splitted" className="px-0">
         <AccordionItem
           title="Que puis-je attendre d'un coaching personnalisé ?"
           classNames={itemClasses}

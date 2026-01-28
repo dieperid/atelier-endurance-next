@@ -12,21 +12,21 @@ export default function HowItWorks() {
           Choisis la formule d&apos;accompagnement qui te correspond :{" "}
           <a
             href={coachingPlans[0].href}
-            className="hover:text-primary hover:underline"
+            className="text-slate-700 hover:text-slate-900 hover:underline"
           >
             Plan Mensuel
           </a>
           ,{" "}
           <a
             href={coachingPlans[1].href}
-            className="hover:text-primary hover:underline"
+            className="text-slate-700 hover:text-slate-900 hover:underline"
           >
             Endurance{" "}
           </a>
           ou{" "}
           <a
             href={coachingPlans[2].href}
-            className="hover:text-primary hover:underline"
+            className="text-slate-700 hover:text-slate-900 hover:underline"
           >
             Performance
           </a>
