@@ -5,6 +5,7 @@ export const socialLinks = {
 
 export const menuItems = [
   { label: "Accueil", href: "/" },
+  { label: "L'équipe", href: "/team" },
   { label: "Coaching", href: "/coaching" },
   { label: "Témoignages", href: "/testimonials" },
 ];
