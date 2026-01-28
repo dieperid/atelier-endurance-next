@@ -71,7 +71,7 @@ export default function PricingCard({
         href={href}
         variant="bordered"
         color="primary"
-        className="mt-auto text-base font-semibold uppercase tracking-widest hover:bg-slate-50"
+        className="mt-auto font-semibold uppercase tracking-wide hover:bg-slate-50"
       >
         Détails
       </Button>
