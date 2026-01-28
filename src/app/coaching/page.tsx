@@ -10,7 +10,7 @@ export const metadata = {
 
 export default function CoachingPage() {
   return (
-    <main className="container mx-auto px-6 sm:px-16 pt-6">
+    <main className="container mx-auto px-6 sm:px-16 pt-6 pb-12">
       <div className="mx-auto max-w-6xl space-y-10">
         <CoachingHero />
         <CoachingIntro />

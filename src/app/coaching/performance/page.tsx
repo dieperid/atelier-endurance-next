@@ -25,7 +25,7 @@ export default function PerformancePage() {
           <h1 className="italic text-4xl font-semibold tracking-tight md:text-6xl lg:text-7xl xl:text-8xl">
             Performance
           </h1>
-          <div className="h-1 w-36 rounded-full bg-linear-to-r from-black via-slate-500 to-transparent" />
+          <div className="h-1 w-48 rounded-full bg-linear-to-r from-black via-slate-500 to-transparent" />
         </header>
 
         <div className="space-y-3 text-justify md:text-lg lg:text-xl">
