@@ -1,3 +1,5 @@
+import { coachingPlans } from "@/lib/data";
+
 export default function HowItWorks() {
   return (
     <section className="space-y-6">
@@ -9,21 +11,21 @@ export default function HowItWorks() {
         <li>
           Choisis la formule d&apos;accompagnement qui te correspond :{" "}
           <a
-            href="/coaching/mensuel"
+            href={coachingPlans[0].href}
             className="hover:text-primary hover:underline"
           >
             Plan Mensuel
           </a>
           ,{" "}
           <a
-            href="/coaching/endurance"
+            href={coachingPlans[1].href}
             className="hover:text-primary hover:underline"
           >
             Endurance{" "}
           </a>
           ou{" "}
           <a
-            href="/coaching/performance"
+            href={coachingPlans[2].href}
             className="hover:text-primary hover:underline"
           >
             Performance
@@ -32,18 +34,18 @@ export default function HowItWorks() {
         </li>
         <li>
           Remplis le formulaire de demande de coaching avec un maximum
-          d’informations.
+          d&apos;informations.
         </li>
         <li>
           David te contacte sous 24 à 48h via WhatsApp pour planifier un appel
-          d’évaluation.
+          d&apos;évaluation.
         </li>
         <li>
-          Lors de l’appel, vous échangez sur tes objectifs, ton questionnaire,
-          et la mise en place du coaching.
+          Lors de l&apos;appel, vous échangez sur tes objectifs, ton
+          questionnaire, et la mise en place du coaching.
         </li>
         <li>
-          Ton espace Intervals.icu est créé, et ton plan d’entraînement
+          Ton espace Intervals.icu est créé, et ton plan d&apos;entraînement
           personnalisé est lancé.
         </li>
         <li>
