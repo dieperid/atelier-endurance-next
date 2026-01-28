@@ -5,7 +5,7 @@ import { Button, Link } from "@heroui/react";
 
 export default function HomeAboutSection() {
   return (
-    <section className="bg-white pt-6 sm:pt-10 md:pt-16 pb-4 overflow-x-hidden">
+    <section className="bg-white py-6 sm:py-10 md:py-12 overflow-x-hidden">
       <div className="container mx-auto px-4 sm:px-8 md:px-16">
         <div className="mx-auto max-w-6xl">
           <div className="grid items-center gap-10 lg:grid-cols-2">
@@ -61,7 +61,7 @@ export default function HomeAboutSection() {
               <div>
                 <Button
                   as={Link}
-                  href="/coaching"
+                  href="/team"
                   radius="full"
                   color="primary"
                   className="text-lg"
