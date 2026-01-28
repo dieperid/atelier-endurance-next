@@ -8,3 +8,9 @@ export const menuItems = [
   { label: "Coaching", href: "/coaching" },
   { label: "Témoignages", href: "/testimonials" },
 ];
+
+export const coachingPlans = [
+  { title: "Endurance", href: "/coaching/endurance" },
+  { title: "Performance", href: "/coaching/performance" },
+  { title: "Plan mensuel", href: "/coaching/mensuel" },
+];
