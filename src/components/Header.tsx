@@ -18,12 +18,14 @@ import { menuItems } from "@/lib/data";
 
 export const Logo = () => {
   return (
-    <Image
-      src="/assets/img/logo_trans.png"
-      width={125}
-      height={125}
-      alt="Atelier Endurance Logo"
-    />
+    <Link href="/">
+      <Image
+        src="/assets/img/logo_trans.png"
+        width={125}
+        height={125}
+        alt="Atelier Endurance Logo"
+      />
+    </Link>
   );
 };
 
