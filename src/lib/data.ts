@@ -14,3 +14,4 @@ export const coachingPlans = [
   { title: "Performance", href: "/coaching/performance" },
   { title: "Plan mensuel", href: "/coaching/mensuel" },
 ];
+
