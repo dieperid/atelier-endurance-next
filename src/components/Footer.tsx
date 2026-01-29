@@ -3,7 +3,6 @@
 import Image from "next/image";
 import { Link } from "@heroui/react";
 import { menuItems, socialLinks } from "@/lib/data";
-import Logo from "../../public/assets/img/logo_trans.png";
 
 export default function Footer() {
   return (
@@ -14,7 +13,7 @@ export default function Footer() {
           <div className="flex flex-col items-center gap-6 sm:flex-row sm:items-center sm:justify-between">
             <Link href="/" className="flex items-center gap-3">
               <Image
-                src={Logo}
+                src="/assets/img/logo-trans.png"
                 alt="Atelier Endurance Logo"
                 width={100}
                 height={100}

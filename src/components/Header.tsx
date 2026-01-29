@@ -20,7 +20,7 @@ export const Logo = () => {
   return (
     <Link href="/">
       <Image
-        src="/assets/img/logo_trans.png"
+        src="/assets/img/logo-trans.png"
         width={125}
         height={125}
         alt="Atelier Endurance Logo"

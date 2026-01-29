@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title: "Atelier de l'Endurance",
   description: "Website of the Atelier Endurance project",
   icons: {
-    icon: "/assets/img/logo_trans.png",
+    icon: "/assets/img/logo-trans.png",
   },
 };
 
