@@ -19,7 +19,7 @@ export const coachingPlans = [
 export const coaches = [
   {
     name: "David Dieperink",
-    imageSrc: "/assets/img/hero-bg.jpeg",
+    imageSrc: "/assets/img/team/David.jpg",
     imageAlt: "David",
     bio: [
       "Ancien fumeur et fêtard, j’ai pris un tournant décisif en 2021 en me reprenant en main, avec une perte de poids comme premier objectif. Poussé par mon frère, j’ai tenté mon premier 10 km… et j'ai détesté la course à pied ! C’est alors que je me suis tourné vers les sports de combat, que j’ai pratiqués jusqu’en 2023.",
@@ -44,7 +44,7 @@ export const coaches = [
   },
   {
     name: "Anthony Dieperink",
-    imageSrc: "/assets/img/hero-bg.jpeg",
+    imageSrc: "/assets/img/team/Anthony.jpeg",
     imageAlt: "Anthony",
     reverse: true,
     bio: [
