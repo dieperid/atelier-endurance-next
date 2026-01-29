@@ -23,7 +23,7 @@ export const coaches = [
     imageAlt: "David",
     bio: [
       "Ancien fumeur et fêtard, j’ai pris un tournant décisif en 2021 en me reprenant en main, avec une perte de poids comme premier objectif. Poussé par mon frère, j’ai tenté mon premier 10 km… et j'ai détesté la course à pied ! C’est alors que je me suis tourné vers les sports de combat, que j’ai pratiqués jusqu’en 2023.",
-      "Mais mon endurance restait un frein, et une nouvelle fois, mon frère m’a embarqué dans sa passion : le vélo. De fil en aiguille, j’ai commencé à rouler, puis à courir, et sans même m’en rendre compte, je me suis lancé des défis toujours plus grands et ambitieux : courir mon premier marathon, terminer un trail de 70 km…",
+      "Mais mon endurance restait un frein, et une nouvelle fois, mon frère m’a embarqué dans sa passion : le vélo. De fil en aiguille, j’ai commencé à rouler, puis à courir, et sans même m’en rendre compte, je me suis lancé des défis toujours plus grands et ambitieux : courir mon premier marathon, terminer un trail de 70 km et enfin, en 2025, achever l’ultra-trail de Verbier St Bernard by UTMB.",
       "Aujourd’hui, je suis tombé amoureux des sports d’endurance. La physiologie et l’entraînement me passionnent, et cette soif de progression m’a donné envie d’aider les autres à atteindre leurs propres objectifs.",
     ],
     badges: [
