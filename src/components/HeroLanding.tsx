@@ -1,4 +1,3 @@
-// src/components/HeroLanding.tsx
 "use client";
 
 import Image from "next/image";
