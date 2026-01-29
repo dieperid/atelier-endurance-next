@@ -1,20 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
+import { enduranceFeatures } from "@/lib/data";
 
 export const metadata = {
   title: "Endurance – Atelier de l'Endurance",
 };
-
-const enduranceFeatures = [
-  "Un entretien initial afin de cibler ton niveau actuel et tes objectifs futurs",
-  "Un accès à la plateforme d'entraînement Intervals.icu et à la communauté de l'Atelier de l'Endurance",
-  "Un plan d'entraînements fait sur mesure construit chaque semaine en fonction de la charge ressentie et des retours de l'athlète",
-  "Une analyse de tes entraînement avec tous les outils disponibles, et une lecture claire de tes données pour mieux comprendre ta progression",
-  "Un retour chaque semaine sur ta progression pour ajuster les blocs, la charge et le volume d'entraînement",
-  "Un échange illimité avec ton coach via WhatsApp pour adapter ton entraînement en temps réel",
-  "Mise en place d'une stratégie et d'un plan de course précis pour arriver au meilleur de ta forme le jour J",
-  "Élaboration d'une stratégie nutritionnelle pour apprendre à connaître ton corps et savoir quoi consommer pendant l'effort",
-];
 
 export default function EndurancePage() {
   return (

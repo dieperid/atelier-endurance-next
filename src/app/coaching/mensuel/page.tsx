@@ -1,15 +1,9 @@
 import Image from "next/image";
+import { mensuelFeatures } from "@/lib/data";
 
 export const metadata = {
   title: "Plan mensuel – Atelier de l'Endurance",
 };
-
-const mensuelFeatures = [
-  "Un entretien initial afin de cibler ton niveau actuel et tes objectifs futurs",
-  "Un accès à la plateforme d'entraînement Intervals.icu et à la communauté de l'Atelier de l'Endurance",
-  "Un plan d'entraînement fait sur mesure construit chaque mois",
-  "Mise en place d'une stratégie et d'un plan de course précis pour arriver au meilleur de ta forme le jour J",
-];
 
 export default function MensuelPage() {
   return (
