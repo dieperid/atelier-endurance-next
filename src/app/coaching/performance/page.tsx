@@ -53,12 +53,12 @@ export default function PerformancePage() {
           </p>
         </div>
 
-        <div className="relative h-72 w-full overflow-hidden rounded-2xl border border-slate-200 shadow-[0_10px_35px_rgba(15,23,42,0.08)] sm:h-96">
+        <div className="relative h-72 w-full overflow-hidden rounded-2xl border border-slate-200 shadow-[0_10px_35px_rgba(15,23,42,0.08)] sm:h-150">
           <Image
-            src="/assets/img/hero-bg.jpeg"
+            src="/assets/img/coaching/performance.jpg"
             alt="Formule Performance"
             fill
-            className="object-cover"
+            className="object-cover object-center"
             sizes="(max-width: 1024px) 100vw, 1024px"
           />
         </div>

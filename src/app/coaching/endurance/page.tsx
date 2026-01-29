@@ -54,9 +54,9 @@ export default function EndurancePage() {
           </p>
         </div>
 
-        <div className="relative h-72 w-full overflow-hidden rounded-2xl border border-slate-200 shadow-[0_10px_35px_rgba(15,23,42,0.08)] sm:h-96">
+        <div className="relative h-72 w-full overflow-hidden rounded-2xl border border-slate-200 shadow-[0_10px_35px_rgba(15,23,42,0.08)] sm:h-150">
           <Image
-            src="/assets/img/hero-bg.jpeg"
+            src="/assets/img/coaching/endurance.jpg"
             alt="Formule Endurance"
             fill
             className="object-cover"

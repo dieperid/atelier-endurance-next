@@ -8,13 +8,13 @@ export default function HomeAboutSection() {
     <section className="relative overflow-hidden bg-white py-10 sm:py-14 md:py-16">
       <div className="container relative mx-auto px-6 sm:px-8 md:px-16">
         <div className="mx-auto max-w-6xl">
-          <div className="grid items-center gap-10 xl:grid-cols-2">
-            <div className="relative min-w-0 xl:order-last home-about-fade home-about-fade-delay">
+          <div className="grid items-center gap-10 lg:grid-cols-2">
+            <div className="relative min-w-0 lg:order-last home-about-fade home-about-fade-delay">
               <div className="absolute -inset-3 rounded-[28px] bg-linear-to-br from-sky-400/40 via-blue-500/20 to-transparent blur-2xl" />
               <div className="relative rounded-[28px] bg-linear-to-br from-sky-400/80 via-blue-500/50 to-indigo-500/30 p-0.5">
-                <div className="relative aspect-4/3 w-full overflow-hidden rounded-[26px] border border-sky-100/80 bg-white">
+                <div className="relative aspect-4/3 lg:aspect-square w-full overflow-hidden rounded-[26px] border border-sky-100/80 bg-white">
                   <Image
-                    src="/assets/img/hero-bg.jpeg"
+                    src="/assets/img/AnthonyDavidNew.jpg"
                     alt="Anthony et David"
                     fill
                     className="object-cover object-center"
