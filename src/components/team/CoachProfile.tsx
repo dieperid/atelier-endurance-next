@@ -77,7 +77,7 @@ export default function CoachProfile({
             {name}
           </h3>
         </div>
-        <div className="space-y-4 text-sm text-neutral-700 md:text-base lg:text-lg">
+        <div className="space-y-4 text-neutral-700 text-sm sm:text-base xl:text-lg">
           {bio.map((paragraph) => (
             <p key={paragraph}>{paragraph}</p>
           ))}

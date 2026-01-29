@@ -5,10 +5,10 @@ import { Accordion, AccordionItem } from "@heroui/react";
 export default function FAQ() {
   const itemClasses = {
     base: "rounded-xl border border-slate-200 bg-white/90 shadow-[0_8px_20px_rgba(15,23,42,0.06)] data-[open=true]:bg-slate-50 data-[open=true]:shadow-[0_12px_30px_rgba(15,23,42,0.1)]",
-    trigger: "px-4 py-4",
-    title: "text-slate-900 font-semibold",
+    trigger: "px-2 py-4",
+    title: "font-semibold",
     indicator: "text-slate-400",
-    content: "px-4 pb-4 text-slate-600",
+    content: "px-2 py-0 pb-4 text-slate-700 text-sm sm:text-base",
   };
 
   return (

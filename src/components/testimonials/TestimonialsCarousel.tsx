@@ -118,7 +118,7 @@ export default function TestimonialsCarousel() {
                         className="object-cover"
                       />
                     </div>
-                    <h3 className="mt-4 text-lg font-semibold tracking-wide text-slate-900">
+                    <h3 className="mt-4 text-lg font-semibold tracking-wide">
                       {testimonial.name}
                     </h3>
                     <div className="mt-4 h-px w-full bg-linear-to-r from-transparent via-slate-200 to-transparent" />
@@ -140,7 +140,7 @@ export default function TestimonialsCarousel() {
                               descriptionRefs.current[testimonial.name] =
                                 element;
                             }}
-                            className="mt-2 text-sm leading-relaxed text-slate-700 text-justify"
+                            className="mt-2 text-sm lg:text-base leading-relaxed text-slate-700 text-justify"
                             style={
                               isExpanded
                                 ? undefined

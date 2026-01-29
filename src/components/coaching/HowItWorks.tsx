@@ -7,7 +7,7 @@ export default function HowItWorks() {
         <span className="text-primary">Comment</span> ça marche ?
       </h2>
 
-      <ol className="list-decimal list-inside space-y-3 font-medium">
+      <ol className="list-decimal list-inside space-y-3 font-medium text-sm sm:text-base">
         <li>
           Choisis la formule d&apos;accompagnement qui te correspond :{" "}
           <a

@@ -1,6 +1,6 @@
 export default function TestimonialsIntro() {
   return (
-    <div className="space-y-4 text-justify md:text-lg lg:text-xl">
+    <div className="space-y-4 text-justify text-sm sm:text-base lg:text-lg">
       <p>
         Chez l&apos;
         <span className="font-semibold">Atelier de l’Endurance</span>, chaque

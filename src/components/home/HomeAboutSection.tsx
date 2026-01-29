@@ -6,10 +6,10 @@ import { Button, Link } from "@heroui/react";
 export default function HomeAboutSection() {
   return (
     <section className="relative overflow-hidden bg-white py-10 sm:py-14 md:py-16">
-      <div className="container relative mx-auto px-4 sm:px-8 md:px-16">
+      <div className="container relative mx-auto px-6 sm:px-8 md:px-16">
         <div className="mx-auto max-w-6xl">
-          <div className="grid items-center gap-10 lg:grid-cols-2">
-            <div className="relative min-w-0 lg:order-last home-about-fade home-about-fade-delay">
+          <div className="grid items-center gap-10 xl:grid-cols-2">
+            <div className="relative min-w-0 xl:order-last home-about-fade home-about-fade-delay">
               <div className="absolute -inset-3 rounded-[28px] bg-linear-to-br from-sky-400/40 via-blue-500/20 to-transparent blur-2xl" />
               <div className="relative rounded-[28px] bg-linear-to-br from-sky-400/80 via-blue-500/50 to-indigo-500/30 p-0.5">
                 <div className="relative aspect-4/3 w-full overflow-hidden rounded-[26px] border border-sky-100/80 bg-white">
@@ -26,15 +26,15 @@ export default function HomeAboutSection() {
 
             <div className="relative min-w-0 home-about-fade">
               <div className="absolute -inset-1 rounded-3xl border border-sky-200/60 opacity-80" />
-              <div className="relative space-y-6 rounded-3xl border border-sky-200/60 bg-white/80 p-6 backdrop-blur-xl sm:p-8">
-                <h2 className="text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl lg:text-5xl xl:text-6xl">
+              <div className="relative space-y-6 rounded-3xl border border-sky-200/60 bg-white/80 p-4 backdrop-blur-xl sm:p-6">
+                <h2 className="text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl md:text-5xl xl:text-6xl">
                   <span>Qui sommes</span>{" "}
                   <span className="bg-linear-to-r from-primary via-blue-500 to-blue-400 bg-clip-text text-transparent">
                     nous ?
                   </span>
                 </h2>
 
-                <div className="space-y-4 text-justify text-sm md:text-base lg:text-lg wrap-break-word">
+                <div className="space-y-4 text-justify text-sm sm:text-base lg:text-lg wrap-break-word">
                   <p>
                     Nous sommes David et Anthony, deux frères passionnés des
                     sports d&apos;endurance.
@@ -70,7 +70,7 @@ export default function HomeAboutSection() {
                     as={Link}
                     href="/team"
                     radius="full"
-                    className="group bg-linear-to-r from-primary to-blue-400 text-lg text-white"
+                    className="group bg-linear-to-r from-primary to-blue-400 sm:text-lg text-white"
                   >
                     En savoir plus
                     <svg

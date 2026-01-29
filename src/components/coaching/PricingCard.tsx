@@ -35,13 +35,13 @@ export default function PricingCard({
         </span>
       </div>
 
-      <p className="mt-4 text-sm leading-relaxed text-slate-600 sm:text-base">
+      <p className="mt-4 leading-relaxed text-slate-600 text-sm sm:text-base">
         {description}
       </p>
 
       <div className="mt-6 h-px w-full bg-linear-to-r from-transparent via-slate-200 to-transparent" />
 
-      <ul className="mt-6 space-y-3 text-sm text-slate-700 lg:text-base mb-6">
+      <ul className="mt-6 space-y-3 text-sm text-slate-700 md:text-base mb-6">
         {features.map((item) => (
           <li key={item} className="flex items-start gap-3 font-semibold">
             <div className="relative mt-0.5">

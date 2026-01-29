@@ -3,21 +3,19 @@ import { coaches } from "@/lib/data";
 
 export default function TeamSection() {
   return (
-    <section className="bg-white py-10">
-      <div className="container mx-auto px-4 sm:px-8 md:px-16">
-        <div className="mx-auto max-w-6xl space-y-12">
-          {coaches.map((coach) => (
-            <CoachProfile
-              key={coach.name}
-              name={coach.name}
-              imageSrc={coach.imageSrc}
-              imageAlt={coach.imageAlt}
-              bio={coach.bio}
-              badges={coach.badges}
-              reverse={coach.reverse}
-            />
-          ))}
-        </div>
+    <section className="bg-white pt-10">
+      <div className="mx-auto max-w-6xl space-y-12">
+        {coaches.map((coach) => (
+          <CoachProfile
+            key={coach.name}
+            name={coach.name}
+            imageSrc={coach.imageSrc}
+            imageAlt={coach.imageAlt}
+            bio={coach.bio}
+            badges={coach.badges}
+            reverse={coach.reverse}
+          />
+        ))}
       </div>
     </section>
   );
