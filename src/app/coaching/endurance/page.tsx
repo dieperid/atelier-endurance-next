@@ -8,7 +8,7 @@ export const metadata = {
 
 export default function EndurancePage() {
   return (
-    <main className="container mx-auto px-6 sm:px-16 py-6">
+    <main className="container mx-auto px-6 sm:px-16 pt-6 pb-12">
       <div className="mx-auto max-w-6xl space-y-10">
         <header className="space-y-4 md:space-y-6">
           <h1 className="italic text-4xl font-semibold tracking-tight md:text-6xl lg:text-7xl xl:text-8xl">

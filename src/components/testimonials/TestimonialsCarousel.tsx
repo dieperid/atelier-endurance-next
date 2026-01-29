@@ -105,7 +105,7 @@ export default function TestimonialsCarousel() {
             >
               {testimonials.map((testimonial) => (
                 <SwiperSlide key={testimonial.name} className="pt-2">
-                  <article className="group relative flex h-full flex-col overflow-hidden rounded-2xl border border-slate-300 bg-white p-6 transition hover:-translate-y-2">
+                  <article className="group relative flex h-full flex-col overflow-hidden rounded-2xl border border-slate-300 bg-white p-4 transition hover:-translate-y-2">
                     <div className="pointer-events-none absolute -inset-1 -z-10 rounded-3xl bg-[radial-gradient(circle_at_top,rgba(148,163,184,0.35),transparent_45%),radial-gradient(circle_at_bottom,rgba(226,232,240,0.6),transparent_45%)] opacity-70 blur-2xl transition group-hover:opacity-100" />
                     <div className="pointer-events-none absolute inset-0 -z-10 bg-[linear-gradient(120deg,rgba(226,232,240,0.7),transparent_40%,rgba(241,245,249,0.9))]" />
 
@@ -140,7 +140,7 @@ export default function TestimonialsCarousel() {
                               descriptionRefs.current[testimonial.name] =
                                 element;
                             }}
-                            className="mt-2 text-sm lg:text-base leading-relaxed text-slate-700 text-justify"
+                            className="mt-2 text-sm lg:text-base leading-relaxed text-slate-700"
                             style={
                               isExpanded
                                 ? undefined
