@@ -32,14 +32,16 @@ export default function CoachProfile({
     <div className="grid items-center gap-10 lg:grid-cols-2">
       <div className={`${imageOrder} min-w-0`}>
         <div className="relative">
-          <div className="relative aspect-square w-full overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-[0_15px_45px_rgba(15,23,42,0.12)]">
-            <Image
-              src={imageSrc}
-              alt={imageAlt}
-              fill
-              className="object-cover"
-              sizes="(max-width: 1024px) 100vw, 520px"
-            />
+          <div className="relative rounded-3xl bg-linear-to-br from-sky-300/50 via-blue-300/25 to-indigo-300/15 p-px">
+            <div className="relative aspect-square w-full overflow-hidden rounded-[22px] border border-sky-100/80 bg-white">
+              <Image
+                src={imageSrc}
+                alt={imageAlt}
+                fill
+                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 520px"
+              />
+            </div>
           </div>
         </div>
 
@@ -49,14 +51,14 @@ export default function CoachProfile({
               <Chip
                 key={badge.label}
                 variant="bordered"
-                className="max-w-full border-slate-200 bg-white text-xs shadow-[0_8px_20px_rgba(15,23,42,0.08)] sm:text-sm whitespace-normal h-auto items-start py-1"
+                className="max-w-full border-sky-100/80 bg-white text-xs text-neutral-700 shadow-[0_8px_20px_rgba(59,130,246,0.12)] sm:text-sm whitespace-normal h-auto items-start py-1"
               >
                 {badge.href ? (
                   <a
                     href={badge.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="wrap-break-word transition hover:text-slate-900 hover:underline"
+                    className="wrap-break-word transition hover:text-sky-900 hover:underline"
                   >
                     {badge.label}
                   </a>
@@ -70,10 +72,12 @@ export default function CoachProfile({
       </div>
 
       <div className={`space-y-4 text-justify min-w-0 ${contentOrder}`}>
-        <h3 className="text-2xl font-semibold leading-tight lg:text-4xl">
-          {name}
-        </h3>
-        <div className="space-y-4 text-sm md:text-base lg:text-lg">
+        <div className="space-y-3">
+          <h3 className="text-2xl font-semibold leading-tight lg:text-4xl">
+            {name}
+          </h3>
+        </div>
+        <div className="space-y-4 text-sm text-neutral-700 md:text-base lg:text-lg">
           {bio.map((paragraph) => (
             <p key={paragraph}>{paragraph}</p>
           ))}
