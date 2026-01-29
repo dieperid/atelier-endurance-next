@@ -2,22 +2,21 @@
 "use client";
 
 import Image from "next/image";
-import Background from "../../public/assets/img/hero-bg.jpeg";
 
 export default function HeroLanding() {
   return (
     <section className="relative min-h-screen w-full overflow-hidden">
       {/* Background image */}
       <Image
-        src={Background}
+        src="/assets/img/coaching/performance.jpg"
         alt="Atelier Endurance background"
         fill
         priority
-        className="object-cover object-top"
+        className="object-cover object-center"
       />
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-linear-to-b from-black/55 via-black/40 to-black/10" />
+      <div className="absolute inset-0 bg-linear-to-b from-black/30 via-black/50 to-black/30" />
 
       {/* Content */}
       <div className="relative z-10 flex min-h-screen items-center justify-center px-6">
