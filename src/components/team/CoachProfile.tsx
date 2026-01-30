@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { Chip } from "@heroui/react";
+import { motion } from "framer-motion";
 
 type Badge = {
   label: string;
@@ -48,24 +49,32 @@ export default function CoachProfile({
         {badges.length > 0 ? (
           <div className="mt-5 flex flex-wrap gap-2">
             {badges.map((badge) => (
-              <Chip
+              <motion.div
                 key={badge.label}
-                variant="bordered"
-                className="max-w-full border-sky-100/80 bg-white text-xs text-neutral-700 shadow-[0_8px_20px_rgba(59,130,246,0.12)] sm:text-sm whitespace-normal h-auto items-start py-1"
+                whileHover={{
+                  x: [0, -2, 2, -2, 2, 0],
+                  rotate: [0, -1, 1, -1, 1, 0],
+                }}
+                transition={{ duration: 0.4, ease: "easeInOut" }}
               >
-                {badge.href ? (
-                  <a
-                    href={badge.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="wrap-break-word transition hover:text-sky-900 hover:underline"
-                  >
-                    {badge.label}
-                  </a>
-                ) : (
-                  <span className="wrap-break-word">{badge.label}</span>
-                )}
-              </Chip>
+                <Chip
+                  variant="bordered"
+                  className="max-w-full border-sky-100/80 bg-white text-xs text-neutral-700 shadow-[0_8px_20px_rgba(59,130,246,0.12)] sm:text-sm whitespace-normal h-auto items-start py-1"
+                >
+                  {badge.href ? (
+                    <a
+                      href={badge.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="wrap-break-word transition hover:text-sky-900 hover:underline"
+                    >
+                      {badge.label}
+                    </a>
+                  ) : (
+                    <span className="wrap-break-word">{badge.label}</span>
+                  )}
+                </Chip>
+              </motion.div>
             ))}
           </div>
         ) : null}
