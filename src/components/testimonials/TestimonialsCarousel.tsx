@@ -109,7 +109,7 @@ export default function TestimonialsCarousel() {
                     <div className="pointer-events-none absolute -inset-1 -z-10 rounded-3xl bg-[radial-gradient(circle_at_top,rgba(148,163,184,0.35),transparent_45%),radial-gradient(circle_at_bottom,rgba(226,232,240,0.6),transparent_45%)] opacity-70 blur-2xl transition group-hover:opacity-100" />
                     <div className="pointer-events-none absolute inset-0 -z-10 bg-[linear-gradient(120deg,rgba(226,232,240,0.7),transparent_40%,rgba(241,245,249,0.9))]" />
 
-                    <div className="relative h-48 w-full overflow-hidden rounded-xl">
+                    <div className="relative aspect-square w-full overflow-hidden rounded-xl">
                       <Image
                         src={testimonial.image}
                         alt={testimonial.name}
