@@ -14,7 +14,7 @@ export default function HomeAboutSection() {
               <div className="relative rounded-[28px] bg-linear-to-br from-sky-400/80 via-blue-500/50 to-indigo-500/30 p-0.5">
                 <div className="relative aspect-4/3 lg:aspect-square w-full overflow-hidden rounded-[26px] border border-sky-100/80 bg-white">
                   <Image
-                    src="/assets/img/AnthonyDavidNew.jpg"
+                    src="/assets/img/AnthonyDavid.jpg"
                     alt="Anthony et David"
                     fill
                     className="object-cover object-center"
