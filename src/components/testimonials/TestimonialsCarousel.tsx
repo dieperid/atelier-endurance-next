@@ -115,10 +115,10 @@ export default function TestimonialsCarousel() {
                         alt={testimonial.name}
                         fill
                         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                        className="object-cover"
+                        className="object-cover object-top"
                       />
                     </div>
-                    <h3 className="mt-4 text-lg font-semibold tracking-wide">
+                    <h3 className="mt-4 text-lg font-semibold">
                       {testimonial.name}
                     </h3>
                     <div className="mt-4 h-px w-full bg-linear-to-r from-transparent via-slate-200 to-transparent" />
@@ -140,7 +140,7 @@ export default function TestimonialsCarousel() {
                               descriptionRefs.current[testimonial.name] =
                                 element;
                             }}
-                            className="mt-2 text-sm lg:text-base leading-relaxed text-slate-700"
+                            className="mt-4 text-sm lg:text-base leading-relaxed text-slate-700"
                             style={
                               isExpanded
                                 ? undefined

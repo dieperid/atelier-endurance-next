@@ -27,7 +27,7 @@ export default function HomeAboutSection() {
             <div className="relative min-w-0 home-about-fade">
               <div className="absolute -inset-1 rounded-3xl border border-sky-200/60 opacity-80" />
               <div className="relative space-y-6 rounded-3xl border border-sky-200/60 bg-white/80 p-4 backdrop-blur-xl sm:p-6">
-                <h2 className="text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl md:text-5xl xl:text-6xl">
+                <h2 className="text-3xl font-semibold sm:text-4xl md:text-5xl xl:text-6xl">
                   <span>Qui sommes</span>{" "}
                   <span className="bg-linear-to-r from-primary via-blue-500 to-blue-400 bg-clip-text text-transparent">
                     nous ?
