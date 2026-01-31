@@ -40,7 +40,7 @@ export default function Header() {
       shouldHideOnScroll
       onMenuOpenChange={setIsMenuOpen}
       height={"6rem"}
-      isBlurred={!isHome}
+      isBlurred={!isHome || (isHome && isMenuOpen)}
       classNames={{
         wrapper: "container max-w-6xl mx-auto px-6 sm:px-16 xl:px-0",
       }}
