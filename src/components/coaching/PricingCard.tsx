@@ -18,7 +18,7 @@ export default function PricingCard({
   href,
 }: Props) {
   return (
-    <div className="group relative flex flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white p-6 shadow-[0_10px_35px_rgba(15,23,42,0.08)] transition hover:-translate-y-1 hover:shadow-[0_16px_55px_rgba(15,23,42,0.12)]">
+    <div className="group relative flex flex-col overflow-hidden rounded-2xl border border-slate-200 p-6 shadow-[0_10px_35px_rgba(15,23,42,0.08)] transition hover:-translate-y-1 hover:shadow-[0_16px_55px_rgba(15,23,42,0.12)]">
       <div className="pointer-events-none absolute -inset-1 -z-10 rounded-3xl bg-[radial-gradient(circle_at_top,rgba(148,163,184,0.35),transparent_45%),radial-gradient(circle_at_bottom,rgba(226,232,240,0.6),transparent_45%)] opacity-70 blur-2xl transition group-hover:opacity-100" />
       <div className="pointer-events-none absolute inset-0 -z-10 bg-[linear-gradient(120deg,rgba(226,232,240,0.7),transparent_40%,rgba(241,245,249,0.9))]" />
 

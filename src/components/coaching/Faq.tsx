@@ -4,7 +4,7 @@ import { Accordion, AccordionItem } from "@heroui/react";
 
 export default function FAQ() {
   const itemClasses = {
-    base: "rounded-xl border border-slate-200 bg-white/90 shadow-[0_8px_20px_rgba(15,23,42,0.06)] data-[open=true]:bg-slate-50 data-[open=true]:shadow-[0_12px_30px_rgba(15,23,42,0.1)]",
+    base: "rounded-xl border border-slate-200 shadow-[0_8px_20px_rgba(15,23,42,0.06)] data-[open=true]:bg-slate-50 data-[open=true]:shadow-[0_12px_30px_rgba(15,23,42,0.1)]",
     trigger: "px-2 py-4",
     title: "font-semibold",
     indicator: "text-slate-400",

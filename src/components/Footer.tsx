@@ -44,7 +44,7 @@ export default function Footer() {
             <div className="flex items-center gap-4">
               <Link
                 href={socialLinks.instagram}
-                className="rounded-full border border-slate-200 bg-white p-2 text-sm text-slate-600 shadow-[0_6px_18px_rgba(15,23,42,0.08)] transition hover:text-primary"
+                className="rounded-full border border-slate-200 p-2 text-sm text-slate-600 shadow-[0_6px_18px_rgba(15,23,42,0.08)] transition hover:text-primary"
                 target="_blank"
                 rel="noopener noreferrer"
               >
