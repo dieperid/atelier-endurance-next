@@ -34,7 +34,7 @@ export default function CoachProfile({
       <div className={`${imageOrder} min-w-0`}>
         <div className="relative">
           <div className="relative rounded-3xl bg-linear-to-br from-sky-300/50 via-blue-300/25 to-indigo-300/15 p-px">
-            <div className="relative aspect-square w-full overflow-hidden rounded-[22px] border border-sky-100/80 bg-white">
+            <div className="relative aspect-square w-full overflow-hidden rounded-[22px] border border-sky-100/80">
               <Image
                 src={imageSrc}
                 alt={imageAlt}
@@ -59,7 +59,7 @@ export default function CoachProfile({
               >
                 <Chip
                   variant="bordered"
-                  className="max-w-full border-sky-100/80 bg-white text-xs text-neutral-700 shadow-[0_8px_20px_rgba(59,130,246,0.12)] sm:text-sm whitespace-normal h-auto items-start py-1"
+                  className="max-w-full border-sky-100/80 text-xs text-neutral-700 shadow-[0_8px_20px_rgba(59,130,246,0.12)] sm:text-sm whitespace-normal h-auto items-start py-1"
                 >
                   {badge.href ? (
                     <a

@@ -3,7 +3,7 @@ import { coaches } from "@/lib/data";
 
 export default function TeamSection() {
   return (
-    <section className="bg-white pt-10">
+    <section className="pt-10">
       <div className="mx-auto max-w-6xl space-y-12">
         {coaches.map((coach) => (
           <CoachProfile
