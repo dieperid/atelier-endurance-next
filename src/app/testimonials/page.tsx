@@ -9,8 +9,8 @@ export const metadata = {
 export default function TestimonialsPage() {
   return (
     <main className="pt-6">
-      <div className="container mx-auto px-6 sm:px-16">
-        <div className="mx-auto max-w-6xl space-y-10">
+      <div className="container mx-auto px-6">
+        <div className="mx-auto max-w-7xl space-y-10">
           <TestimonialsHero />
           <TestimonialsIntro />
         </div>

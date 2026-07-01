@@ -22,24 +22,30 @@ export const coaches = [
     imageSrc: "/assets/img/team/David.jpg",
     imageAlt: "David",
     bio: [
-      "Ancien fumeur et fêtard, j’ai pris un tournant décisif en 2021 en me reprenant en main, avec une perte de poids comme premier objectif. Poussé par mon frère, j’ai tenté mon premier 10 km… et j'ai détesté la course à pied ! C’est alors que je me suis tourné vers les sports de combat, que j’ai pratiqués jusqu’en 2023.",
-      "Mais mon endurance restait un frein, et une nouvelle fois, mon frère m’a embarqué dans sa passion : le vélo. De fil en aiguille, j’ai commencé à rouler, puis à courir, et sans même m’en rendre compte, je me suis lancé des défis toujours plus grands et ambitieux : courir mon premier marathon, terminer un trail de 70 km et enfin, en 2025, achever l’ultra-trail de Verbier St Bernard by UTMB.",
-      "Aujourd’hui, je suis tombé amoureux des sports d’endurance. La physiologie et l’entraînement me passionnent, et cette soif de progression m’a donné envie d’aider les autres à atteindre leurs propres objectifs.",
+      "Ancien fumeur et fêtard, j’ai pris un tournant décisif en 2021 en me reprenant en main, avec une perte de poids comme premier objectif. Poussé par mon frère, j’ai tenté mon premier 10 km… et j’ai détesté la course à pied ! C’est alors que je me suis tourné vers les sports de combat, que j’ai pratiqués jusqu’en 2023.",
+
+      "Mais mon endurance restait un frein, et une nouvelle fois, mon frère m’a embarqué dans sa passion : le vélo. De fil en aiguille, j’ai commencé à rouler, puis à courir, et sans même m’en rendre compte, je me suis lancé des défis toujours plus grands et ambitieux : courir mon premier marathon, terminer un trail de 70 km et enfin, en 2025, achever l’ultra-trail Verbier St Bernard by UTMB. C’est aussi à ce moment-là que j’ai découvert le plaisir de l’ultra-distance : passer des heures dehors, avancer pendant 10, 12 ou 15 heures, gérer l’effort, les hauts, les bas, et profiter pleinement de la nature.",
+
+      "Aujourd’hui, je suis tombé amoureux des sports d’endurance, et plus particulièrement de l’ultra-distance. J’aime cette idée de passer du temps dehors, de repousser progressivement ses limites et de construire une progression sur le long terme. Comme je m’entraîne seul, j’ai rapidement voulu comprendre comment progresser intelligemment, structurer mes séances et mieux comprendre comment mon corps réagit à l’effort. C’est ce cheminement qui m’a passionné pour la physiologie et l’entraînement, et cette soif de progression m’a donné envie d’aider les autres à atteindre leurs propres objectifs."
     ],
     badges: [
       {
-        label: "Trail Verbier St Bernard by UTMB 2025 - X-Alpine (26h29)",
+        label: "Trail de la Dent de Vaulion 2026 (45km) – 5ème scratch",
+        href: "https://sptiming.ch/trail-de-la-dent-de-vaulion/",
+      },
+      {
+        label: "Trail Verbier St Bernard by UTMB 2025 – X-Alpine (26h29)",
         href: "https://utmb.world/utmb-index/races/669.trailverbierstbernardbyutmbx-alpine.2025",
       },
       {
-        label: "Trail du Mont Bally 2025 (27km) - 5ème scratch",
+        label: "Trail du Mont Bally 2025 (27km) – 5ème scratch",
         href: "https://www.softtiming.ch/resultats/callHtml.php?page=Class_gen27.xml&retour=/resultats/index.php&type=TC&reper=gimel25/&ext=xml",
       },
       {
-        label: "SwissPeaks 70k 2024 - 12ème scratch",
+        label: "SwissPeaks 70k 2024 – 12ème scratch",
         href: "https://www.ultratiming.live/en/evenement/spt-2024/epreuve/70/resultats",
       },
-      { label: "Marathon (2024) - 3h07" },
+      { label: "Marathon (2024) – 3h07" },
     ],
   },
   {
@@ -54,19 +60,23 @@ export const coaches = [
     ],
     badges: [
       {
-        label: "TDS Superfondo 2025 - 1er scratch 🏆",
+        label: "Les 3 Ballons Granfondo 2026 – 8ème scratch",
+        href: "https://www.acn-timing.com/?lng=FR&utm_source=ig&utm_medium=social&utm_content=link_in_bio#/events/2156915396541630/ctx/20260606_3ballons/generic/198031_1/home/OFF1",
+      },
+      {
+        label: "TDS Superfondo 2025 – 1er scratch 🏆",
         href: "https://www.mso.swiss/events/2390-tour-des-stations/results?type=CATEGORIES&typeId=38383",
       },
       {
-        label: "UCI Granfondo Suisse 2025 - 8ème scratch",
+        label: "UCI Granfondo Suisse 2025 – 8ème scratch",
         href: "https://www.mso.swiss/events/2366-uci-granfondo-suisse/results?type=SCRATCH&typeId=14176",
       },
       {
-        label: "TDS Superfondo 2024 - 5ème scratch",
+        label: "TDS Superfondo 2024 – 5ème scratch",
         href: "https://www.mso.swiss/events/2187-tour-des-stations/results?type=SCRATCH&typeId=13256",
       },
       {
-        label: "TDS Superfondo 2023 - 3ème scratch 🥉",
+        label: "TDS Superfondo 2023 – 3ème scratch 🥉",
         href: "https://www.mso.swiss/events/1777-tour-des-stations/results?type=SCRATCH&typeId=11765",
       },
     ],

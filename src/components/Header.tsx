@@ -42,7 +42,7 @@ export default function Header() {
       height={"6rem"}
       isBlurred={!isHome || (isHome && isMenuOpen)}
       classNames={{
-        wrapper: "container max-w-6xl mx-auto px-6 sm:px-16 xl:px-0",
+        wrapper: "container max-w-7xl mx-auto px-6 sm:px-16 md:px-6 2xl:px-0",
       }}
       className={`font-medium w-full z-50 ${
         isHome

@@ -72,7 +72,7 @@ export default function TestimonialsCarousel() {
       </div>
 
       <div className="relative container mx-auto space-y-6 px-6 sm:px-16 pt-8">
-        <div className="mx-auto max-w-6xl space-y-6">
+        <div className="mx-auto max-w-7xl space-y-6">
           <div className="flex items-center justify-between">
             <h2 className="italic text-4xl font-extrabold tracking-tight">
               Avis
@@ -105,7 +105,7 @@ export default function TestimonialsCarousel() {
             >
               {testimonials.map((testimonial) => (
                 <SwiperSlide key={testimonial.name} className="pt-2">
-                  <article className="group relative flex h-full flex-col overflow-hidden rounded-2xl border border-slate-300 bg-white p-4 transition hover:-translate-y-2">
+                  <article className="group relative flex h-full flex-col overflow-hidden rounded-2xl border border-slate-300 bg-white p-3 transition hover:-translate-y-2">
                     <div className="pointer-events-none absolute -inset-1 -z-10 rounded-3xl bg-[radial-gradient(circle_at_top,rgba(148,163,184,0.35),transparent_45%),radial-gradient(circle_at_bottom,rgba(226,232,240,0.6),transparent_45%)] opacity-70 blur-2xl transition group-hover:opacity-100" />
                     <div className="pointer-events-none absolute inset-0 -z-10 bg-[linear-gradient(120deg,rgba(226,232,240,0.7),transparent_40%,rgba(241,245,249,0.9))]" />
 
@@ -118,10 +118,10 @@ export default function TestimonialsCarousel() {
                         className="object-cover object-top"
                       />
                     </div>
-                    <h3 className="mt-4 text-lg font-semibold">
+                    <h3 className="mt-3 text-lg font-semibold text-center">
                       {testimonial.name}
                     </h3>
-                    <div className="mt-4 h-px w-full bg-linear-to-r from-transparent via-slate-200 to-transparent" />
+                    <div className="mt-3 h-px w-full bg-linear-to-r from-transparent via-slate-200 to-transparent" />
                     {(() => {
                       const isExpanded = Boolean(expanded[testimonial.name]);
                       const description = testimonial.description
@@ -140,7 +140,7 @@ export default function TestimonialsCarousel() {
                               descriptionRefs.current[testimonial.name] =
                                 element;
                             }}
-                            className="mt-4 text-sm lg:text-base leading-relaxed text-slate-700"
+                            className="mt-4 px-1 text-sm lg:text-base leading-relaxed text-slate-700 text-justify"
                             style={
                               isExpanded
                                 ? undefined
@@ -159,7 +159,7 @@ export default function TestimonialsCarousel() {
                             <button
                               type="button"
                               onClick={() => toggleExpanded(testimonial.name)}
-                              className="mt-2 text-sm font-semibold text-primary hover:underline text-left"
+                              className="mt-2 px-1 text-sm font-semibold text-primary hover:underline text-left"
                             >
                               {isExpanded ? "Voir moins" : "Voir plus"}
                             </button>
