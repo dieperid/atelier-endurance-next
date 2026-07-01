@@ -4,7 +4,7 @@ import { coaches } from "@/lib/data";
 export default function TeamSection() {
   return (
     <section className="pt-10">
-      <div className="mx-auto max-w-6xl space-y-12">
+      <div className="mx-auto max-w-7xl space-y-12">
         {coaches.map((coach) => (
           <CoachProfile
             key={coach.name}

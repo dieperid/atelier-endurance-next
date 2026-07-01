@@ -9,7 +9,7 @@ export default function Footer() {
     <footer className="relative overflow-hidden border-t border-slate-200 pt-2 pb-6">
       <div className="pointer-events-none absolute inset-0 bg-linear-to-b from-white via-slate-100 to-slate-200" />
       <div className="container relative mx-auto px-6 sm:px-16">
-        <div className="mx-auto max-w-6xl">
+        <div className="mx-auto max-w-7xl">
           <div className="flex flex-col items-center gap-6 sm:flex-row sm:items-center sm:justify-between">
             <Link href="/" className="flex items-center gap-3">
               <Image
