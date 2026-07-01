@@ -2,7 +2,7 @@ export const testimonials = [
   {
     name: "Sacha Christen",
     description:
-      "Ce qui fait la force de David, c'est sans aucun doute son suivi personnalisé qui me permet pas-à-pas de me rapprocher de mes objectifs. Au-delà de ses connaissances et de ses conseils techniques, c'est son soutien et sa disponibilité qui font toute la différence.<br> Ses séances sont à la fois exigeantes et plaisantes, de plus, il reste toujours à mon écoute pour que le plaisir soit toujours présent !",
+      "Ce qui fait la force de David, c'est sans aucun doute son suivi personnalisé qui me permet pas-à-pas de me rapprocher de mes objectifs. Au-delà de ses connaissances et de ses conseils techniques, c'est son soutien et sa disponibilité qui font toute la différence.<br><br> Ses séances sont à la fois exigeantes et plaisantes, de plus, il reste toujours à mon écoute pour que le plaisir soit toujours présent !",
     image: "/assets/img/testimonials/SachaChristen.jpeg",
   },
   {
@@ -28,5 +28,11 @@ export const testimonials = [
     description:
       "Étant un passionné de sport d’endurance, ça fait maintenant 6 ans que j’en pratique. J’ai toujours eu l’habitude d’organiser mes séances de sport en improvisant en fonction de mes envies et du temps à disposition. En vue d’une participation à un IRONMAN 70.3, j’ai pris la décision de faire appel à un coach afin d’améliorer mes performances.<br><br> Je suis tombé sur l’Atelier de l’Endurance et j’ai tout de suite pris contact avec David. Ses conseils m’ont particulièrement aidé sur plusieurs aspects. Mes compétences physiques se sont nettement améliorées et le plan proposé me permet de moins me prendre la tête et d’uniquement me concentrer sur les séances. De plus, le coach offre un vrai suivi par message et répond à toutes les questions et préoccupations que j’ai pu avoir.",
     image: "/assets/img/testimonials/LouisEmeri.jpg",
+  },
+  {
+    name: "Nicolas Rippstein",
+    description:
+      "David m'a accompagné dans la préparation des 20 km de Lausanne avec un programme adapté à mes objectifs et à mon niveau. Son suivi est un vrai point fort : toujours disponible, à l'écoute et réactif pour ajuster les entraînements lorsque c'était nécessaire.<br> Grâce à cet accompagnement, j'ai progressé en endurance, atteint mon objectif et surtout évité toute blessure. Je recommande vivement son coaching.",
+    image: "/assets/img/testimonials/NicolasRippstein.jpeg",
   },
 ];
